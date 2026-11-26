@@ -1,0 +1,129 @@
+{
+ "site": {
+  "title": "BARETI Module 1: Sustainable Energy Planning Training",
+  "place": "Ibis Hotel, Nairobi, Kenya",
+  "dates": "10 to 11 November 2026",
+  "programme": "BARETI Kenya – Bavarian Renewable Energy Training Initiative",
+  "organisers": [
+   "bbw international, the international division of Bildungswerk der Bayerischen Wirtschaft (bbw) gGmbH",
+   "Delegation of German Industry and Commerce for Eastern Africa (AHK Eastern Africa)"
+  ],
+  "repository_name": "kenya-bareti",
+  "last_update": "2026-11-26",
+  "footer_note": "Documentation by the trainers. Not an official website of the organisers."
+ },
+ "trainers": [
+  {
+   "name": "Lampros Konstantellos",
+   "role": "Research Associate and doctoral candidate, Technical University of Munich (TUM)",
+   "affiliation": [],
+   "sessions": [
+    "Fundamentals and Methods of Integrated Energy Planning (Day 1)",
+    "Energy Modelling at National Scale (Day 2)"
+   ],
+   "portrait": "Portrait_Lampros_Konstantellos.png",
+   "email": "lampros.konstantellos@tum.de",
+   "linkedin": "https://www.linkedin.com/in/lampros-konstantellos",
+   "website": "https://www.mep.tum.de/mep/coses/team/lampros-konstantellos/",
+   "lines": [
+    "Research Associate and doctoral candidate, Technical University of Munich (TUM)",
+    "M.Eng. Electrical and Computer Engineering, University of Patras"
+   ]
+  },
+  {
+   "name": "Tim Lorenz",
+   "role": "Research Assistant, Technical University of Munich (TUM)",
+   "affiliation": [],
+   "sessions": [
+    "Integration of Renewable Energy (Day 1)",
+    "Energy Modelling at Household Level (Day 2)"
+   ],
+   "portrait": "Portrait_Tim_Lorenz.jpg",
+   "email": "ti.lorenz@tum.de",
+   "linkedin": "https://www.linkedin.com/in/tim-lorenz-518513231/",
+   "website": "",
+   "lines": [
+    "Research Assistant, Technical University of Munich (TUM)",
+    "Freelance lecturer, Bildungswerk der Bayerischen Wirtschaft (bbw)",
+    "M.Sc. Environmental Engineering, Technical University of Munich (TUM)"
+   ]
+  }
+ ],
+ "links": {
+  "kenya_power_planning_lab": "https://lamproskonstantellos.github.io/kenya-lab/",
+  "kenya_power_planning_lab_run_the_grid": "https://lamproskonstantellos.github.io/kenya-lab/#grid",
+  "kenya_power_planning_lab_class_board": "https://lamproskonstantellos.github.io/kenya-lab/#board",
+  "kenya_power_planning_lab_source": "https://github.com/lamproskonstantellos/kenya-lab",
+  "miro_board": "https://miro.com/app/board/uXjVEPB0LM4=",
+  "miro_password": "bareti-2026",
+  "show_miro_password": true,
+  "investment_simulation": "",
+  "household_energy_lab": "",
+  "coses": "https://www.mep.tum.de/mep/coses/",
+  "onedrive_shared_folder": ""
+ },
+ "downloads": [
+  {
+   "name": "Slides, Day 1",
+   "content": "Introductions, Methods of integrated energy planning, Integrating wind and solar into a power system",
+   "format": "PDF",
+   "file": "downloads/BARETI_Module1_Day1_Slides.pdf",
+   "url": ""
+  },
+  {
+   "name": "Slides, Day 2",
+   "content": "Household modelling for PV and battery, Energy system modelling at national scale",
+   "format": "PDF",
+   "file": "downloads/BARETI_Module1_Day2_Slides.pdf",
+   "url": ""
+  },
+  {
+   "name": "Agenda",
+   "content": "The two-day schedule",
+   "format": "PDF",
+   "file": "downloads/BARETI_Module1_Agenda.pdf",
+   "url": ""
+  }
+ ],
+ "tum_open_source_tools": {
+  "intro": "Open-source tools of the Chair of Renewable and Sustainable Energy Systems (ENS) at the Technical University of Munich (TUM). All of them are free to use. The descriptions follow the README of each repository.",
+  "organisation": "https://github.com/tum-ens",
+  "tools": [
+   {
+    "name": "urbs",
+    "url": "https://github.com/tum-ens/urbs",
+    "license": "GNU General Public License v3 or later",
+    "in_the_training": "The optimisation behind the household energy lab of Day 2 (through its web interface webURBS). Named on the slide of free tools on Day 2.",
+    "description": "A linear optimisation model for distributed energy systems. It plans capacity expansion and unit commitment and finds the system with the lowest cost that meets given demand time series, for electricity and other commodities. It works with hourly time steps by default and has a focus on the sizing and use of storage. It is written in Python on Pandas and Pyomo."
+   },
+   {
+    "name": "pyGRETA",
+    "url": "https://github.com/tum-ens/pyGRETA",
+    "license": "GNU General Public License v3",
+    "in_the_training": "Named on the slide of free tools on Day 2.",
+    "description": "The python Generator of REnewable Time series and mAps. It produces high-resolution potential maps and time series for onshore wind, offshore wind, solar photovoltaics (PV) and concentrated solar power, for any region of the world that the user defines with a shapefile. It uses MERRA-2 weather data and takes land use, topography, slope and the distance to urban areas into account."
+   },
+   {
+    "name": "pylovo",
+    "url": "https://github.com/tum-ens/pylovo",
+    "license": "MIT License",
+    "in_the_training": "",
+    "description": "A Python tool that generates synthetic low-voltage distribution grids from open data for a region the user defines: transformers, feeder cables and house connections, with grid statistics. The grids are pandapower models. The current data pipeline uses German open data (3D building models, census data and OpenStreetMap)."
+   },
+   {
+    "name": "InfDB",
+    "url": "https://github.com/tum-ens/InfDB",
+    "license": "Apache License 2.0",
+    "in_the_training": "",
+    "description": "A modular data and tool infrastructure for energy and infrastructure modelling. It runs in containers, imports open datasets by configuration into a PostgreSQL and PostGIS database and gives tools one standard way to reach the data. It is meant for energy system modelling, municipal heat and infrastructure planning, and geospatial analysis."
+   },
+   {
+    "name": "SurroGrid",
+    "url": "https://github.com/tum-ens/SurroGrid",
+    "license": "See the licence files in the repository",
+    "in_the_training": "",
+    "description": "A deep learning surrogate model that predicts the net demand at the transformer of low-voltage grids. One workflow (GridExpand) creates simulation data for many grids with urbs and power flow calculations. A second workflow (GridForecast) trains neural networks on these data as fast forecasters. It was developed for German low-voltage grids."
+   }
+  ]
+ }
+}

@@ -1,0 +1,565 @@
+{
+ "source": "Tables used by the site",
+ "tables": [
+  {
+   "caption": "Table 3: Programme of the session Fundamentals and Methods of Integrated Energy Planning on Day 1",
+   "header": [
+    "Part",
+    "Content",
+    "Activity and check"
+   ],
+   "rows": [
+    [
+     "Opening",
+     "Four learning outcomes. How we work together: the participants bring their system and its data, the trainer brings methods and comparisons.",
+     "Quiz 1: Kenya in key numbers (six questions)."
+    ],
+    [
+     "Part 1: The planning cycle and Kenya's plans",
+     "Planning as a loop of nine steps, from objectives to review. What makes planning integrated. Kenya's plans with their horizons, owners and tools: the Integrated National Energy Plan (INEP), the LCPDP and the Transmission Master Plan (TMP). How Chile, Germany and South Africa organise planning.",
+     "The weakest link: which step of the cycle is weakest in your experience? By show of hands."
+    ],
+    [
+     "Part 2: Demand forecasting",
+     "Five past plans all forecast the 2023 peak too high, by 1% to 30%. Three ways to forecast demand: top-down, bottom-up or a mix of both. The LCPDP's formula from energy sold to the peak. Kenya's three scenarios, from 5 to 13.5 GW by 2043.",
+     "Worked example in pairs: the 2030 peak with an own growth rate and loss level. The possible answers span 1,062 MW, the scenarios of the TMP 1,189 MW."
+    ],
+    [
+     "Part 3: What a kWh costs",
+     "The LCOE the LCPDP way, from the capital recovery factor. How many hours Kenya's plants run. Screening curves: geothermal beats oil engines above about 6,100 hours a year at the plan's rate of 12.8%. The plan's ranking at 12.8% and at 8%. What the LCOE leaves out: the value to the system.",
+     "Quick vote: which is cheaper per kWh in Kenya, geothermal or solar photovoltaics (PV)? Answered at the end of the part with the plan's numbers."
+    ],
+    [
+     "Part 4: The least-cost system and its robustness",
+     "What an expansion model minimises. The four parts of an optimisation model and one new decision: how much to build. Linear program (LP) or mixed-integer linear program (MILP). A real MILP from the trainer's own work: battery dispatch at a Greek PV plant with 4.5 MW of PV and a battery of 4.5 MW and 9 MWh. Four measures of reliability. A tornado chart of the assumptions. Minimax regret.",
+     "Build Kenya's 2035 mix in the Kenya Power Planning Lab, then three shock cards."
+    ],
+    [
+     "Wrap-up",
+     "Four messages to take away. Handover to Tim Lorenz with one open question: what is a battery worth in the daily dispatch?",
+     "Quiz 2: planning methods (seven questions). Fist to five for each outcome."
+    ]
+   ]
+  },
+  {
+   "caption": "Table 4: Programme of the session Integration of Renewable Energy on Day 1",
+   "header": [
+    "Part",
+    "Content",
+    "Activity"
+   ],
+   "rows": [
+    [
+     "Part 1: Why integration? Kenya today",
+     "Kenya's record demand day of 23 July 2025, with a peak of 2,362 MW: a surplus at night and a tight evening on the same day. Studies of the future mix, from 3.3 GW installed today to between 13 and about 100 GW. Capacity is not energy: full-load hours by technology. An illustrative day in 2030, when solar peaks at noon and demand after sunset. The six properties of wind and PV: fluctuating, uncertain, location-bound, modular and decentral, inverter-connected, and close to zero marginal cost. The phases of integration of the International Energy Agency (IEA), with Kenya in phase 3.",
+     "Input with Kenyan data."
+    ],
+    [
+     "Part 2a: Physical integration, where?",
+     "Suitable sites: the best wind in the far north, good solar on about 80% of the land, geothermal tied to the Rift. Where electricity is generated and where it is used: the Nairobi region uses 44% and the Coast 16 to 18%. Chile as the case: a top solar resource 1,300 km from the load, more than 6 TWh curtailed in 2025, and storage as the fastest answer once a law let it earn money.",
+     "Investment Simulation, phase 1: groups of two to four invest USD 200 million in solar, wind and geothermal plants. They choose size and location and aim for the highest cumulative cash flow by 2038 under a fixed power purchase agreement (PPA)."
+    ],
+    [
+     "Part 2b: Physical integration, when?",
+     "Integration on every time scale, from milliseconds to years. Monthly wind output in Kenya varies by a factor of about two: 114 GWh in March against 216 GWh in November. Dark and calm spells, with evidence from Europe.",
+     "Investment Simulation, phase 2: after 2038 the fixed contracts end and the price depends on the choices of all groups. Groups that chose the same technology in the same region lower the price for each other."
+    ],
+    [
+     "Part 2c: Physical integration, the toolbox",
+     "Four levers. Plant: sites near the load, wind farms spread over regions, PV facing west, hybrids with storage. Grid: regional pooling with Ethiopia, Uganda and Tanzania. Storage: which technology fits which time scale, and how batteries overtook pumped hydro between 2010 and 2025. Demand: shifting loads and sector coupling. Uruguay as the case: about 40% wind in a hydro system of Kenya's size.",
+     "Input with Kenyan data."
+    ],
+    [
+     "Part 3: System integration",
+     "From spinning machines to power electronics: inertia and primary control. The lines of defence of the frequency. The blackouts of South Australia in 2016 and of the Iberian Peninsula in 2025. Batteries as fast frequency response. South Australia as the case: about 77% wind and solar after three fixes.",
+     "Input with examples from Kenya: the blackouts of 25 August 2023 and 6 September 2024."
+    ],
+    [
+     "Part 4: Market integration",
+     "Vietnam: a feed-in tariff that added solar faster than the grid could follow. The merit order and the capacity market, with their strengths and limits at high shares of wind and solar. India: time-of-day tariffs and auctions for firm renewable supply. The system view: a strong backbone combined with flexibility close to the customer.",
+     "Investment Simulation, phase 3: one add-on for each PV and wind project, chosen from battery storage, green hydrogen and export transmission. Discussion in pairs: how should Kenya pay for flexibility? Four ideas, then a vote."
+    ],
+    [
+     "Wrap-up",
+     "Questions and discussion. Joint closing of Day 1 with a short introduction of the EduGrid project.",
+     ""
+    ]
+   ]
+  },
+  {
+   "caption": "Table 5: Programme of the session Energy Modelling at Household Level on Day 2",
+   "header": [
+    "Step",
+    "Content",
+    "Group exercise in the lab"
+   ],
+   "rows": [
+    [
+     "Opening",
+     "One household, many energy flows: what the grid sees is the residual demand. Households use about one third of Kenya's electricity and shape the evening peak. How customers of rural mini-grids use electricity: most of them peak after dark.",
+     "Kahoot game: Power at Home (five questions)."
+    ],
+    [
+     "Step 1: Demand",
+     "Four ways to model household demand: top-down, bottom-up, stochastic and data-driven. Three questions behind every demand model. How to build the profile of one household type.",
+     "Groups of three to four build the demand of one household: appliances, their power and their hours of use. The app shows the energy per day and the peak."
+    ],
+    [
+     "Step 2: Energy system",
+     "PV yield in Kenya, with Lodwar and Taveta as examples. What a battery does over a day. Purchase and feed-in prices, with the Kenyan tariffs. Three households, three boundaries: grid-connected, off-grid and weak grid (Figure 3). Price estimates for PV, battery and inverter in Kenya.",
+     "The groups choose a house type and guess the PV size in kWp and the battery size in kWh for Nairobi."
+    ],
+    [
+     "Step 3: Simulation",
+     "A simulation shows how one chosen design behaves, hour by hour. It does not show whether a better design exists.",
+     "The app simulates the guess of each group: self-sufficiency, grid purchase and annual cost."
+    ],
+    [
+     "Step 4: Optimisation",
+     "How webURBS works: demand, sun and prices go in, and one linear optimisation over the 8,760 hours of a year returns the sizes with the lowest annual cost. Optimisation methods and their solving effort.",
+     "The guess against the optimum for the house type. Within each house type, the group closest to its optimum wins."
+    ],
+    [
+     "Optimise it yourself",
+     "Three levels: reduce demand, shift loads to sunny hours, then size PV and battery.",
+     "The groups shift a share of their night demand to the day and run the optimisation again."
+    ],
+    [
+     "Wrap-up",
+     "The bigger picture: what a well-designed household system means for the household, the grid and the country.",
+     ""
+    ]
+   ]
+  },
+  {
+   "caption": "Table 6: Programme of the session Energy Modelling at National Scale on Day 2",
+   "header": [
+    "Part",
+    "Content",
+    "Activity and check"
+   ],
+   "rows": [
+    [
+     "Opening",
+     "Four learning outcomes. One Miro board for all table activities, one laptop per table.",
+     "Quiz 3: Kenya and the world (nine questions)."
+    ],
+    [
+     "Part 1: Kenya and the world",
+     "Kenya next to other countries: Uruguay's system has about the same size, and both run almost entirely on renewables. Supply in the financial year 2025/26: 15,693 GWh, of which 1,914 GWh imported. A record peak of 2,514 MW on 29 June 2026, and losses above 20%. Steam vented at night, engines and imports in the evening. Five countries, five lessons, with Germany and Greece in detail.",
+     "One word per table: Kenya's biggest power system challenge to 2035 (Miro). Which lesson matters most for Kenya? (Miro). Poll: your home and power (12 questions)."
+    ],
+    [
+     "Part 2: How a model sees the system",
+     "A power system in layers. What goes into a model and what comes out. Why model a country. Three kinds of model and where Kenya uses them: capacity expansion, dispatch, and network and dynamic studies. A student model of Kenya in PyPSA-Earth. The four parts of an optimisation model: decision variables, objective, constraints and parameters. Why linear models are useful. Method slides: a power flow on three buses, N-1 and losses, the swing equation and the frequency nadir. Six duties that a grid code asks of wind and solar plants. The 2026 debate on a 15% benchmark for wind and solar.",
+     "Your data for a national model: which data would your organisation supply, and who owns it? (Miro)."
+    ],
+    [
+     "Part 3: One day on the grid",
+     "The merit order. The system lambda, the cost of the next MWh: about 87 USD at the evening peak, about zero at night. How electricity is priced in a market and in Kenya. Europe's target model. The value of water. Four sources of flexibility: hydro, storage, demand response and trade.",
+     "Follow-up material: the lab exercise Run Kenya's grid for a day."
+    ],
+    [
+     "Part 4: From household to national",
+     "With Tim Lorenz: the household model next to the national model.",
+     "Think, pair, share: where would household data improve the national plan?"
+    ],
+    [
+     "Wrap-up",
+     "Free tools to start with: OSeMOSYS, PyPSA-Earth, urbs, pyGRETA, LEAP and the lab.",
+     "Quiz 4: methods and models (nine questions). Fist to five for each outcome."
+    ]
+   ]
+  },
+  {
+   "caption": "Table 7: Activities with a record",
+   "header": [
+    "Day",
+    "Activity",
+    "Tool",
+    "Record"
+   ],
+   "rows": [
+    [
+     "Day 1",
+     "Who is in the room? (with Tim Lorenz)",
+     "Kahoot",
+     "37 players"
+    ],
+    [
+     "Day 1",
+     "Quiz 1: Kenya in key numbers",
+     "Kahoot",
+     "38 players"
+    ],
+    [
+     "Day 1",
+     "Build Kenya's 2035 mix",
+     "Lab",
+     "9 plans on the class board"
+    ],
+    [
+     "Day 1",
+     "Quiz 2: Planning methods",
+     "Kahoot",
+     "30 players"
+    ],
+    [
+     "Day 2",
+     "Power at Home (Tim Lorenz)",
+     "Kahoot",
+     "30 players"
+    ],
+    [
+     "Day 2",
+     "Quiz 3: Kenya and the world",
+     "Kahoot",
+     "31 players"
+    ],
+    [
+     "Day 2",
+     "One word per table",
+     "Miro",
+     "47 notes"
+    ],
+    [
+     "Day 2",
+     "Which lesson matters most for Kenya?",
+     "Miro",
+     "13 answers from 15 tables"
+    ],
+    [
+     "Day 2",
+     "Poll: your home and power",
+     "Kahoot",
+     "33 players"
+    ],
+    [
+     "Day 2",
+     "Your data for a national model",
+     "Miro",
+     "17 notes from 15 tables"
+    ],
+    [
+     "Day 2",
+     "Quiz 4: Methods and models",
+     "Kahoot",
+     "33 players"
+    ]
+   ]
+  },
+  {
+   "caption": "Table 13: One word per table, the notes by theme",
+   "header": [
+    "Theme",
+    "Notes",
+    "Words on the notes"
+   ],
+   "rows": [
+    [
+     "Finance",
+     "8",
+     "Exploitative, High interests, high (twice), expensive, Limited private sector engagement, High Cost of Local Capital, Opaque"
+    ],
+    [
+     "Reliability and flexibility",
+     "7",
+     "Grid Inadequacy, Grid Transmission Constraints, Constrained, Aged transmission system, Grid unreliability, Ethics, Aging"
+    ],
+    [
+     "Losses",
+     "7",
+     "Illegal connections, Vandalism, Poor load balancing within the feeders, moderate, Load center far from generation sites, Visibility, Grid Stability"
+    ],
+    [
+     "Access",
+     "6",
+     "High Connection Cost, Right of Way/Wayleaves, Unaffordability, Cost-reflective, Undeveloped areas, Tedious"
+    ],
+    [
+     "Demand growth",
+     "5",
+     "Poor Infrastructure, Variability, Growth of e-mobility, Planning, Lack of Sector Coupling"
+    ],
+    [
+     "Other answers",
+     "14",
+     "Review of Education Sector, Lobbying, Geopolitics, Grid codes requirements, Indigenous Practice, Outer Space, corruption, High cost, poor tariffs, Government policies, Distance from the nearest transformer, Land compensations, Weather unpredictable, Go Renewable Energy"
+    ]
+   ]
+  },
+  {
+   "caption": "Table 14: Which lesson matters most for Kenya? The notes of the tables in their own words",
+   "header": [
+    "Table",
+    "Green note",
+    "Pink note"
+   ],
+   "rows": [
+    [
+     "1",
+     "Government Policies",
+     "Investing on generation without consideration of the grid"
+    ],
+    [
+     "2",
+     "Developing a standard and coherent policy.",
+     "Building generation without considering the grid."
+    ],
+    [
+     "3",
+     "Chile - Plan Generation and Grid together.",
+     "The grid plan must follow the energy plan."
+    ],
+    [
+     "4",
+     "Implementation of batteries within the solar plants",
+     "Consider new technology interruption as the plant ages"
+    ],
+    [
+     "5",
+     "Grid plan to follow energy plan: Germany",
+     "Plan for both DEMAND AND GENERATION TOGETHER"
+    ],
+    [
+     "6",
+     "Uruguay - Power auction Policy",
+     "Germany - Grid congestion"
+    ],
+    [
+     "7 and 17",
+     "Public Awareness:",
+     "Inaccurate demand forecasts"
+    ],
+    [
+     "8",
+     "To have long term and transparent PPA",
+     "political influences"
+    ],
+    [
+     "9",
+     "Implement auctions",
+     "Overreliance on hydro and thermals"
+    ],
+    [
+     "10 and 13",
+     "Lack of Funding",
+     "poor upgrade planning: South Africa"
+    ],
+    [
+     "12",
+     "Plan generation and investment jointly:",
+     "Concentrating generation in one particular area"
+    ],
+    [
+     "18",
+     "To have a transparent review of long term PPAs",
+     "Find the balance between investing in renewable power sources and upgrading the grid"
+    ],
+    [
+     "20",
+     "Copy: Uruguay - predictable/stable IPP rates",
+     "Avoid: Chile - situating generation far from demand. South Africa - rehabilitate power plants. Germany - interconnection of new generation to the existing grid in time. Greece - battery storage and interconnectors"
+    ]
+   ]
+  },
+  {
+   "caption": "Table 15: Your data for a national model, the notes grouped by kind of data",
+   "header": [
+    "Data",
+    "Owner named by the tables",
+    "Tables"
+   ],
+   "rows": [
+    [
+     "Dispatch data and dispatch hours",
+     "Kenya Power (KPLC), National Control Centre (NCC), KETRACO, KenGen, EPRA",
+     "1, 8, 13, 18"
+    ],
+    [
+     "Network and transmission data, load centres, plant locations and capacities",
+     "KETRACO, Kenya Power, NCC, KenGen, other IPPs",
+     "1, 2, 4, 14"
+    ],
+    [
+     "Grid stability",
+     "NCC",
+     "5, 12"
+    ],
+    [
+     "Capacity expansion",
+     "KenGen, Kenya Power, IPPs, the Ministry of Energy and Petroleum (MoE), EPRA, the Nuclear Power and Energy Agency (NuPEA), the Geothermal Development Company (GDC)",
+     "1, 9"
+    ],
+    [
+     "Energy policies, tariffs and unit cost per kWh",
+     "EPRA, KPLC",
+     "6, 11"
+    ],
+    [
+     "Usage data",
+     "Companies and industries",
+     "7"
+    ],
+    [
+     "Feasibility studies",
+     "KenGen",
+     "3"
+    ],
+    [
+     "Institutions without a data type",
+     "MoE, NCC, EPRA, KPLC, KETRACO, KenGen, major IPPs",
+     "20"
+    ]
+   ]
+  },
+  {
+   "caption": "Table 16: Build Kenya's 2035 mix: the nine plans on the class board and the least-cost plan of the model. New capacity and margin in MW, investment and yearly cost in USD billion. A negative margin is rented",
+   "header": [
+    "Plan",
+    "Geothermal",
+    "Large hydro",
+    "Wind",
+    "Solar PV",
+    "Batteries",
+    "Imports",
+    "Oil engines",
+    "Investment",
+    "Yearly cost",
+    "Margin to the reserve rule"
+   ],
+   "rows": [
+    [
+     "A",
+     "2,000",
+     "693",
+     "0",
+     "0",
+     "500",
+     "300",
+     "500",
+     "10.9",
+     "2.65",
+     "+67"
+    ],
+    [
+     "B",
+     "2,000",
+     "511",
+     "600",
+     "1,100",
+     "350",
+     "300",
+     "400",
+     "12.4",
+     "2.81",
+     "-56"
+    ],
+    [
+     "C",
+     "2,000",
+     "693",
+     "1,900",
+     "0",
+     "0",
+     "300",
+     "500",
+     "13.9",
+     "3.08",
+     "+417"
+    ],
+    [
+     "D",
+     "950",
+     "392",
+     "1,350",
+     "1,450",
+     "550",
+     "250",
+     "0",
+     "9.8",
+     "3.15",
+     "-1,313"
+    ],
+    [
+     "E",
+     "2,000",
+     "693",
+     "1,150",
+     "1,400",
+     "750",
+     "200",
+     "200",
+     "14.7",
+     "3.19",
+     "+62"
+    ],
+    [
+     "F",
+     "1,050",
+     "644",
+     "400",
+     "2,350",
+     "150",
+     "50",
+     "200",
+     "10.3",
+     "3.19",
+     "-1,344"
+    ],
+    [
+     "G",
+     "1,950",
+     "693",
+     "1,550",
+     "1,500",
+     "250",
+     "300",
+     "150",
+     "14.7",
+     "3.21",
+     "+30"
+    ],
+    [
+     "H",
+     "1,550",
+     "693",
+     "1,500",
+     "2,900",
+     "1,000",
+     "300",
+     "400",
+     "16.2",
+     "3.45",
+     "+50"
+    ],
+    [
+     "I",
+     "200",
+     "200",
+     "1,150",
+     "300",
+     "850",
+     "200",
+     "500",
+     "5.7",
+     "3.83",
+     "-1,747"
+    ],
+    [
+     "Model",
+     "2,000",
+     "600",
+     "0",
+     "0",
+     "0",
+     "300",
+     "500",
+     "9.9",
+     "2.58",
+     "-132"
+    ]
+   ]
+  }
+ ]
+}
