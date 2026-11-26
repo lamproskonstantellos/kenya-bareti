@@ -273,6 +273,8 @@ details.fold > .body { padding: 16px; }
 .person { display: grid; grid-template-columns: 180px 1fr; gap: 20px; align-items: start; }
 .person img { width: 180px; height: 180px; object-fit: cover; border: 1px solid var(--line); }
 .person h3 { margin-top: 0; font-size: 22px; margin-bottom: 4px; }
+.person .sess { margin: 2px 0 0; padding-left: 18px; list-style: disc; }
+.person .sess li { margin: 0 0 2px; }
 .person .lines { list-style: none; padding: 0; margin: 0 0 12px; }
 .person .lines li { margin: 0 0 2px; font-size: 15px; }
 .person .lines li:first-child { font-weight: 700; }
