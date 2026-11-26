@@ -221,13 +221,13 @@
   function fillGameSummary(el) {
     var g = game(el.getAttribute('data-game-summary'));
     if (!g) { return; }
-    var sub = g.players + ' players, ' + g.questions.length + ' questions';
+    var sub = g.trainer + '. ' + g.players + ' players, ' + g.questions.length + ' questions';
     if (g.type === 'quiz') {
       sub += ', ' + g.answers + ' answers given, ' + g.correct_answers + ' correct (' + pct(g.correct_answers, g.answers) + '%)';
     } else {
       sub += ', no correct answer';
     }
-    el.innerHTML = esc(g.title) + '<span class="sub">' + esc(sub) + '</span>';
+    el.innerHTML = esc(g.title.replace(' (both trainers)', '')) + '<span class="sub">' + esc(sub) + '</span>';
   }
 
   /* yearly cost of the ten plans, from Table 16 */
