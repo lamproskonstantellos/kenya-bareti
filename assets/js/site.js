@@ -448,7 +448,7 @@
         '<div><h3>' + esc(t.name) + '</h3><ul class="lines">' + lines.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul>' +
         (profile ? profile.outerHTML : '') + '<dl>';
       if (t.affiliation && t.affiliation.length) { html += '<dt>Affiliation</dt><dd>' + t.affiliation.map(esc).join('<br>') + '</dd>'; }
-      if (t.sessions && t.sessions.length) { html += '<dt>Sessions</dt><dd>' + t.sessions.map(esc).join('<br>') + '</dd>'; }
+      if (t.sessions && t.sessions.length) { html += '<dt>Sessions</dt><dd><ul class="sess">' + t.sessions.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul></dd>'; }
       html += contact.join('') + '</dl></div></div>';
       el.innerHTML = html;
     });
